@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Navigation() {
   const [activeSection, setActiveSection] = useState('home');
