@@ -23,7 +23,13 @@ export default function Navigation() {
   return (
     <nav className="navbar">
       <div className="navbar-content">
-        <div className="logo">YR</div>
+        <img
+          src="https://github.com/YASHWANTH-09.png"
+          alt="Yashwanth Ravula"
+          className="logo-image"
+          onClick={(e) => handleScroll(e, 'home')}
+          style={{ cursor: 'pointer' }}
+        />
         <ul className="nav-links">
           {navItems.map(item => (
             <li key={item.id}>

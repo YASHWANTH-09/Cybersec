@@ -22,7 +22,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="hero-image">
-            <div className="avatar">🛡️</div>
+            <img src="https://github.com/YASHWANTH-09.png" alt="Yashwanth Ravula" className="avatar-image" />
           </div>
         </div>
       </div>
